@@ -15,16 +15,16 @@ function Pyth() {
 
   return (
     <div className="flex flex-col items-center justify-center mx-4 my-10 bg-gray-200 rounded-lg ">
-      <h1 className="m-5 text-4xl font-semibold md:text-2xl lg:text-3xl">
+      <h1 className="m-5 mt-5 font-semibold md:text-2xl lg:text-3xl">
         Počítání pytagorový věty (na půl)
       </h1>
-      <div className="mb-6 text-3xl font-bold text-center md:text-lg">
+      <div className="m-5 mt-5 font-bold md:text-2xl lg:text-3xl">
         {numberC}
         <sup>2</sup> = {numberA}
         <sup>2</sup> + {numberB}
         <sup>2</sup>
       </div>
-      <div className="mb-6 text-3xl font-bold text-center md:text-lg">
+      <div className="m-5 mt-5 font-bold md:text-2xl lg:text-3xl">
         c ={Math.sqrt(numberC)}
       </div>
       <div className="flex flex-col items-center">
