@@ -24,6 +24,9 @@ function Pyth() {
         <sup>2</sup> + {numberB}
         <sup>2</sup>
       </div>
+      <div className="mb-6 text-3xl font-bold text-center md:text-lg">
+        c ={Math.sqrt(numberC)}
+      </div>
       <div className="flex flex-col items-center">
         <label htmlFor="a" className="text-sm font-semibold text-gray-600">
           A ={" "}
