@@ -4,7 +4,7 @@ function Rng() {
   const [number, setNumber] = useState(0);
 
   function handleClick() {
-    setNumber(Math.random(1));
+    setNumber(Math.floor(Math.random() * 100000));
   }
 
   return (
